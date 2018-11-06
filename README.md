@@ -28,13 +28,21 @@ Accuracy
 when using the file: "obj_pose-laser-radar-synthetic-input.txt" which is the
 same data file the simulator uses for Dataset 1.**
 
-Using Dataset 1, the RMSE is well under the target values for X, Y, VX and VY:
+Using Dataset 1 with both Radar and Laser, the RMSE is well under the target values for X, Y, VX and VY:
 
 ![](media/RMSE1.png)
 
-Using Dataset 2, the RMSE is also below target:
+Using Dataset 2 with both Radar and Laser, the RMSE is also below target:
 
 ![](media/RMSE2.png)
+
+Using Dataset 1 with Radar only, the RMSE is above target values for X, Y, VX and VY:
+
+![](media/RMSE1Radar.png)
+
+Using Dataset 1 with Laser only, the RMSE is also above target values for X, Y, VX and VY:
+
+![](media/RMSE1Laser.png)
 
 ### Follows the Correct Algorithm
 
